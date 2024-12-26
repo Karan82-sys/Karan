@@ -1,0 +1,51 @@
+/* PartneronHeader.css */
+.partneron-header {
+    display: flex; /* Align items in a row */
+    align-items: center; /* Center items vertically */
+    margin: 10px; /* Margin around the header */
+    background-color: #f0f0f0; /* Light background for the box */
+    padding: 10px; /* Padding inside the box */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-left: 800px;
+}
+
+.partneron-text {
+    margin-right: 10px; /* Space between text and dropdown */
+    font-weight: bold; /* Bold text */
+    background: linear-gradient(135deg, rgba(0, 100, 0, 1), rgba(0, 0, 139, 1), rgba(0, 0, 0, 1)); /* Gradient background */
+    -webkit-background-clip: text; /* Clip the background to text */
+    -webkit-text-fill-color: transparent; /* Make text transparent so gradient shows */
+}
+
+.dropdown {
+    position: relative; /* Position for dropdown */
+}
+
+.dropdown-button {
+    background: none; /* No background */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 1em; /* Font size */
+}
+
+.dropdown-content {
+    position: absolute; /* Positioning for dropdown items */
+    background-color: white; /* Dropdown background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow for dropdown */
+    z-index: 1; /* Ensure dropdown is above other elements */
+}
+
+.dropdown-item {
+    padding: 8px 12px; /* Padding for dropdown items */
+    cursor: pointer; /* Pointer cursor */
+}
+
+.dropdown-item:hover {
+    background-color: #f1f1f1; /* Highlight on hover */
+}
+
+.sign-in {
+    margin-left: 20px; /* Space between dropdown and sign-in */
+    font-weight: bold; /* Bold text */
+}

@@ -1,0 +1,23 @@
+/* NewsContainer.css */
+.news-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+}
+
+.news-boxes {
+    display: flex; /* Align news boxes in a row */
+    justify-content: space-between; /* Space between boxes and align arrow to the right */
+    width: 100%; /* Full width */
+  
+}
+
+.arrow-button {
+    margin-left: 20px; /* Space between the last news box and the arrow */
+    padding: 10px; /* Padding for the button */
+    font-size: 1.5em; /* Font size for the arrow */
+    border: none; /* No border */
+    background-color: transparent; /* No background */
+    cursor: pointer; /* Pointer cursor */
+    align-self: center; /* Center the arrow vertically */
+}

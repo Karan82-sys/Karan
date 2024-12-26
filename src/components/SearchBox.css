@@ -1,0 +1,55 @@
+/* SearchBox.css */
+.search-box-container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-start; /* Align items to the start */
+}
+
+.search-box {
+    display: flex; /* Align items in a row */
+    align-items: center; /* Center items vertically */
+    margin: 10px; /* Margin around the box */
+    padding: 10px; /* Padding inside the box */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.search-input {
+    flex: 1; /* Take up remaining space */
+    padding: 8px; /* Padding for the input */
+    border: 1px solid #ccc; /* Border for the input */
+    border-radius: 5px; /* Rounded corners */
+    color: black; /* Text color */
+}
+
+.search-button {
+    margin-left: 10px; /* Space between input and button */
+    padding: 8px 12px; /* Padding for the button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    cursor: pointer; /* Pointer cursor */
+}
+
+.request-button {
+    margin-top: 10px; /* Space above the button */
+    padding: 10px 15px; /* Padding for the button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #28a745; /* Green button color */
+    color: white; /* Button text color */
+    cursor: pointer; /* Pointer cursor */
+}
+
+.social-icons {
+    display: flex; /* Align icons in a row */
+    margin-left: 10px; /* Space between button and icons */
+}
+
+.icon {
+    width: 24px; /* Width for icons */
+    height: 24px; /* Height for icons */
+    margin: 0 5px; /* Space between icons */
+}

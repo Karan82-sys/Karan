@@ -1,0 +1,23 @@
+/* NewsBox.css */
+.news-box {
+    display: flex;
+    flex-direction: column; /* Stack image and title vertically */
+    align-items: center; /* Center content */
+    margin: 10px; /* Margin around the box */
+    padding: 10px; /* Padding inside the box */
+    border: 1px solid #ccc; /* Border for the box */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #fff; /* White background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.news-image {
+    width: 100%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.news-title {
+    font-size: 1.2em; /* Title font size */
+    margin-top: 10px; /* Space between image and title */
+}

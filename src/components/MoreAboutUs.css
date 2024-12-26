@@ -1,0 +1,45 @@
+/* MoreAboutUs.css */
+.more-about-us {
+    display: flex;
+    background: linear-gradient(135deg, rgba(0, 100, 0, 1), rgba(0, 0, 139, 1), rgba(0, 0, 0, 1));
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.info-section {
+    flex: 2; /* Take up more space */
+}
+
+.dropdowns-section {
+    flex: 1; /* Take up less space */
+    margin-left: 20px; /* Space between the sections */
+}
+
+.dropdown {
+    margin-bottom: 15px; /* Space between dropdowns */
+}
+
+.dropdown-header {
+    background: linear-gradient(135deg, rgba(0, 100, 0, 1), rgba(0, 0, 139, 1), rgba(0, 0, 0, 1)); /* Background for dropdown header */
+    padding: 10px; /* Padding inside header */
+    cursor: pointer; /* Pointer cursor for clickable header */
+    border-radius: 4px; /* Optional rounded corners */
+}
+
+.dropdown-list {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    margin: 5px 0 0 0; /* Margin above the list */
+    background: #555; /* Background for dropdown items */
+    border-radius: 4px; /* Optional rounded corners */
+}
+
+.dropdown-item {
+    padding: 8px; /* Padding for each item */
+    cursor: pointer; /* Pointer cursor for items */
+}
+
+.dropdown-item:hover {
+    background: #666; /* Change background on hover */
+}
